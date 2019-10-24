@@ -1,4 +1,4 @@
-pragma solidity ^0.5.12;
+pragma solidity ^0.4.26;
 
 // ----------------------------------------------------------------------------
 // 'SatoshShares' token contract
@@ -97,7 +97,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract SatoshShares is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
